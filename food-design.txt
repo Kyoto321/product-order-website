@@ -1,0 +1,55 @@
+devOps
+
+-Create a folder in htdocs (consisting of html/css templates)
+-Startup xampp
+-Load http://localhost/phpmyadmin/
+-Create a database consisting of tables in myphpadmin 
+
+-Design admin system
+    -(in CSS use clearfix to rearange div tags)
+
+
+- Work on admin page and create authentication system
+    - create another page for new admin user 'create account'
+    - connect the admin registration to the database 
+        - save input form to the database
+        - create a create admin page
+        - set update and delete buttons
+        - create change password page
+    - create login/logout 
+        - work on authorization and access countrol
+
+
+if 'active = on/off' in tbl_category table in database, 
+'featured=product' will be displayed on website
+
+
+- Create category page
+    - add category page
+    - update and delete category page
+
+- create product page
+    - create add product page
+    - link the categories to the add-product page
+
+
+
+
+NOTE
+In php
+- constants are named with capital letter 
+- while variables are named in small leter
+
+
+- issue of uploading category image in vid 5 - < 1h:5mins add-category page
+    - if solution not found remove $image_name section from php and myphpadmin
+(fixed)
+
+- issue with update-category page
+    -not fully updating
+        - complaining about sql syntax
+
+
+
+
+
